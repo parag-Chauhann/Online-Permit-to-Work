@@ -1,0 +1,67 @@
+/* ApprovalPage.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+    color: #555;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button.approve {
+    background-color: #28a745;
+    /* Green color for approval */
+}
+
+button.reject {
+    background-color: #dc3545;
+    /* Red color for rejection */
+}
+
+.error {
+    color: #dc3545;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #007bff;
+}
