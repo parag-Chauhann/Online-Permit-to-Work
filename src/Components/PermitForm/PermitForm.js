@@ -169,7 +169,7 @@ const handleSubmit = async (e) => {
         contractorName: formData.contractorName,
         projectName: formData.projectName,
         details: `Weight: ${formData.weight}, Dimension: ${formData.dimension}, Quantity: ${formData.quantity}, Serial Number: ${formData.serialNumber}, Inspection Date: ${formData.inspectionDate}, Capacity: ${formData.capacity}`,
-        approvalLink: `http://yourwebsite.com/approve?ptwNumber=${formData.ptwNumber}`, // Replace with your actual link
+        approvalLink: `https://online-permit-to-work.vercel.app/approve/${formData.ptwNumber}`, // Replace with your actual link
     };
 
     try {
